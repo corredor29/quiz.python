@@ -54,7 +54,7 @@ def registrar_chef():
         print(f"\nresgistrado '{nombre_chef}' registrado exitosamente")
         break
 
-def mostrar_libros():
+def mostrar_chef():
     """Muestra todos los libros en formato de tabla con ID."""
     chefs = leer_json(ARCHIVO_CHEF)
     

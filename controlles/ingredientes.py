@@ -88,7 +88,7 @@ def registrar_ingredientes():
         print(f"\ningrediente '{nombre_ingrediente}' registrado exitosamente .")
         break
 
-def mostrar_libros():
+def mostrar_ingredientes():
     """Muestra todos los libros en formato de tabla con ID."""
     ingrediente = leer_json(ARCHIVO_INGREDIENTES)
     
